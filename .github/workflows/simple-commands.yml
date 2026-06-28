@@ -1,4 +1,5 @@
 name: Simple Commands
+
 on: [push]
 
 jobs:
@@ -6,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo Hello
-        run: echo "Hello, World!"
-    - name: Show Date
+        run: echo "Hello, world!"
+      - name: Show Date
         run: date
-    - name: List Files
-      run: ls -la
+      - name: List Files
+        run: ls -la
